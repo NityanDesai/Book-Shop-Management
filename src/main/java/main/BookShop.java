@@ -43,7 +43,6 @@ public class BookShop{
             take2 = sc.nextInt(); //quantity
             c1.updateCart(itemAvailable[take1-1], take2);
             take1 = sc.nextInt();
-            
         }
         sc.nextLine();
         System.out.println("type your name to generate the bill :");
